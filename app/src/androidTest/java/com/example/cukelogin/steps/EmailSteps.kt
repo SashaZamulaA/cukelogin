@@ -12,7 +12,7 @@ import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 
 class LoginSteps {
-
+//Test
     private fun id(name: String): Int {
         val ctx = InstrumentationRegistry.getInstrumentation().targetContext
         return ctx.resources.getIdentifier(name, "id", ctx.packageName)
