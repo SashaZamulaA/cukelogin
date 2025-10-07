@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
-
+//test
 android {
     namespace = "com.example.cukelogin"
     compileSdk = 35
