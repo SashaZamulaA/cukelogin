@@ -13,6 +13,8 @@ Feature: Login
     And I tap the button with id "loginButton"
     Then I see the Home screen
 
+  //test
+
   @wrong_credentials
   Scenario: Wrong username or password
     When I enter "user" into the field with id "usernameField"
